@@ -1,0 +1,97 @@
+.speedDial {
+  position: fixed;
+  right: 1vmax;
+  top: 1vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.MuiDrawer-paper {
+  background: linear-gradient(to bottom, rgb(255, 210, 0), #fe8c00) !important;
+}
+
+@media screen and (max-width: 600px) {
+  .speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 2.5vmax;
+    width: 40px;
+    height: 45px;
+  }
+
+  .speedDialIcon {
+    width: 56px;
+    height: 45px;
+    border-radius: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  .MuiToolbar-gutters {
+    padding-right: 10px !important;
+  }
+}
+
+
+/* ------------------------------------- */
+a {
+  text-decoration: none !important;
+display: inline-block;
+}
+li {
+  list-style: none;
+  color: rgba(214, 200, 200, 0.692);
+}
+.justify-center {
+  justify-content: center !important ;
+}
+.justify-between {
+  justify-content: space-between !important;
+}
+.aline-center {
+  align-items: center;
+}
+.aline-start {
+  align-items: start;
+}
+.aline-end {
+  align-items: end;
+}
+.height-fit {
+  height: fit-content;
+}
+/* Header Section Styling */
+.header-top-bar {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Primary-Color);
+  border-bottom: 1px solid var(--Secondary-color);
+  height: fit-content;
+}
+
+.header-main {
+  background-color: var(--Primary-Color);
+}
+.Nav-links li {
+  padding: .2rem;
+  transition: ease .5s;
+  border-bottom: 2px solid transparent;
+}
+.Nav-links li:hover{
+  border-bottom: 1px solid rgb(114, 102, 102);
+  padding-bottom: .2rem;
+}
+.nav-beader-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  column-gap: 2rem;
+  align-items: center;
+}
+.header-lower-nav {
+  background: var(--Secondary-color);
+}

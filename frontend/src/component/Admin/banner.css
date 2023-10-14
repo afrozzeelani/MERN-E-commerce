@@ -1,0 +1,23 @@
+.uploaded-images ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center-align the images */
+  }
+  
+  .uploaded-images li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .uploaded-images img {
+    max-width: 100px; /* Adjust the max width as needed */
+    max-height: 100px; /* Adjust the max height as needed */
+  }
+  
+
+
+  /* bannerLIST */
+  /* .custom_class{
+    padding-top: 80px;
+    padding-bottom: 100px;
+  } */

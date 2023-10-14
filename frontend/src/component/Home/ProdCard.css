@@ -1,0 +1,11 @@
+ /* dashboard styling */
+ 
+    .prodCard{
+      display: flex;
+      margin: 2vmax auto;
+      flex-wrap: wrap;
+     
+    }
+    .card-body  img {
+     border-radius: 5px;
+    }

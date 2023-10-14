@@ -1,0 +1,9 @@
+#registerImage > img {
+    width: 4vmax;
+    height: 4vmax;
+    border-radius: 100%;
+  }
+  #registerImage > input {
+    display: flex;
+    padding: 0%;
+  }
