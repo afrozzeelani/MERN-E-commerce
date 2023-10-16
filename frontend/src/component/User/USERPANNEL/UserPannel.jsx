@@ -1,6 +1,4 @@
 import React from "react";
-import { FaUserCircle } from "react-icons/fa";
-import { MdOutlinePassword } from "react-icons/md";
 import { FiLogOut } from "react-icons/fi";
 import { Link, Outlet } from "react-router-dom";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';

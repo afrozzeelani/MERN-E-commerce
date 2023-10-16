@@ -84,6 +84,9 @@ function App() {
         {/* <Route path="/login" element={<LoginUSER />} /> */}
         <Route path="/register" element={<RegisterUSER />} />
         <Route path="/login" element={<LoginUSER />} />
+        
+        
+        
         <Route path="/myaccount" element={<UserPannel />}>
           <Route index element={<UserProfile />} />
           {/* <Route path="UserProfile" element={<UserProfile />} />

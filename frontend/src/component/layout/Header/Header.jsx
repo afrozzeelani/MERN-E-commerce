@@ -5,6 +5,9 @@ import './head.css'
 import { Badge } from '@mui/material';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 import { useSelector } from "react-redux";
+import SearchIcon from "@mui/icons-material/Search";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+
 
 
 const Header = () => {
@@ -36,10 +39,10 @@ const Header = () => {
           </div>
           <div className="user-Links d-flex gap-4" >
             <li>
-              <Link to='/login' className="text-danger text-center"><p className="d-none d-sm-inline">Login</p> <AiOutlineUser className="fs-5 fw-bold"/></Link>
+              <Link to='/login' className="text-danger text-center"><p className="d-none d-sm-inline">Login</p> <AccountCircleIcon className="fs-5 fw-bold"/></Link>
             </li>
             <li>
-              <Link  className="text-danger text-center"><p className="d-none d-sm-inline">Search</p> <AiOutlineSearch className="fs-5 fw-bold"/></Link>
+              <Link  className="text-danger text-center"><p className="d-none d-sm-inline">Search</p> <SearchIcon className="fs-5 fw-bold"/></Link>
             </li>
             <li>
               <Link className="text-danger text-center" ><p className="d-none d-sm-inline">Favriout</p> <AiOutlineHeart className="fs-5 fw-bold" /></Link>
