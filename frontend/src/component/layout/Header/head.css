@@ -57,6 +57,14 @@ a {
   .header-lower-nav {
     background: var(--Secondary-color);
   }
+  .loginProfileDrop {
+    display: none;
+    border-radius: 10px;
+    box-shadow: -3px 3px 5px rgba(248, 248, 248, 0.486);
+}
+.profilerVisible {
+    display: block !important;
+}
   @media screen and (max-width:400px ) {
     .d-sm-none {
       display: none;
